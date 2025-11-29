@@ -1,0 +1,17 @@
+# Core
+langchain>=0.0.300
+langchain-community>=0.0.30
+langchain-groq>=0.0.1
+chromadb>=0.3.28
+langchain-huggingface>=0.0.5
+langchain-text-splitters>=0.0.6
+tqdm>=4.64.0
+python-dotenv>=1.0.0
+
+# Embeddings / transformers support
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+
+# Optional / useful tools
+uvicorn>=0.22.0
+fastapi>=0.95.0
