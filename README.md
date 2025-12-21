@@ -54,22 +54,32 @@ These safeguards provide a foundation for future enhancements such as neural mod
  -Sufficient memory for embeddings
 
 🚀 Step-by-Step Usage Guide
+
 1️⃣ Clone the Repository
-git clone <repository-url>
+
+git clone https://github.com/manishreddygutha-spec/RAG-Assistant.git
 cd project
+
 2️⃣ Create a Virtual Environment
+
 python -m venv .venv
 source .venv/bin/activate     # Linux/macOS
 .venv\Scripts\Activate.ps1    # Windows
+
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
+
 4️⃣ Configure Environment Variables
+
 GROQ_API_KEY=your_api_key_here
+
 5️⃣ Add Documents
 
 Place non-empty .txt files inside the data/ directory.
 
 6️⃣ Run the Application
+
 python app.py
 
 📌 Applications
@@ -96,4 +106,5 @@ python app.py
 
 This project is intended for educational and research purposes.
 Users are responsible for ensuring ethical, legal, and compliant usage in real-world deployments.
+
 
