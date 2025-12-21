@@ -35,7 +35,7 @@ project/
 └── rag_clients_db/         # Persistent ChromaDB storage
 
 🏗️ System Architecture
-![Architecture](images/rag_architecture.png)
+[Architecture](images/rag_architecture.png)
 
 🧠 Methodology
 ![Workflow](images/methodology_flow.png)
