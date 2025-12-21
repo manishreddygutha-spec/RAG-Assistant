@@ -56,32 +56,32 @@ These safeguards provide a foundation for future enhancements such as neural mod
 🚀 Step-by-Step Usage Guide
 
 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/manishreddygutha-spec/RAG-Assistant.git
 cd project
-
+```
 2️⃣ Create a Virtual Environment
-
+```bash
 python -m venv .venv
 source .venv/bin/activate     # Linux/macOS
 .venv\Scripts\Activate.ps1    # Windows
-
+```
 3️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 4️⃣ Configure Environment Variables
-
+```bash
 GROQ_API_KEY=your_api_key_here
-
+```
 5️⃣ Add Documents
 
 Place non-empty .txt files inside the data/ directory.
 
 6️⃣ Run the Application
-
+```bash
 python app.py
-
+```
 📌 Applications
  - Domain-specific question answering
  - Academic research assistants
@@ -106,5 +106,6 @@ python app.py
 
 This project is intended for educational and research purposes.
 Users are responsible for ensuring ethical, legal, and compliant usage in real-world deployments.
+
 
 
