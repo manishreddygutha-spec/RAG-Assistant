@@ -35,7 +35,7 @@ project/
 └── rag_clients_db/         # Persistent ChromaDB storage
 
 🏗️ System Architecture
-[Architecture](images/rag_architecture.png)
+![Architecture](images/rag_architecture.png)
 
 🧠 Methodology
 ![Workflow](images/methodology_flow.png)
@@ -96,3 +96,4 @@ python app.py
 
 This project is intended for educational and research purposes.
 Users are responsible for ensuring ethical, legal, and compliant usage in real-world deployments.
+
